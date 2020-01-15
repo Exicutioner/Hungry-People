@@ -1,0 +1,309 @@
+@media screen and (max-width: 1200.98px) {
+    #hero{
+        height: 80rem;
+    }
+    #about .container .row .col-5 .img-box:before,#about .container .row .col-5 .img-box:after{
+    display: none;
+    }
+    #team .container .row .col-5 .img-box::before,#team .container .row .col-5 .img-box:after{
+        display: none;
+    }
+    #book .container .row .col-6 .img-box:before,#book .container .row .col-6 .img-box::after{
+        display: none;
+    }
+    #private .container .row .col-6 .img-box-1:before,#private .container .row .col-6 .img-box-1::after{
+        display: none;
+    }
+    #private .container .row .col-6 .img-box-2:before,#private .container .row .col-6 .img-box-2::after{
+        display: none;
+    }
+    #special .row{
+        justify-content: center;
+    }
+    #contact .container{
+        margin: 10rem auto;
+    }
+    #book .container .row p{
+        line-height: 2rem;
+    }
+}
+@media screen and (max-width: 991.98px) {
+    .col-12 {
+        width: 100%;    
+    }
+    .col-6 {
+        width: 100%;
+    }
+    .col-3 {
+        width: 100%;
+    }
+    .col-4 {
+        width: 100%;
+    }
+    #about .container .row .col-7 {
+        width: 100%;
+        text-align: center;
+        align-items: center;
+    }
+    #about .container .row .col-7 p {
+        font-family: Open Sans, sans-serif;
+        font-size: 1.4rem;
+        text-align: center;
+        font-weight: 300;
+        line-height: 1.8rem;
+        color: #000000;
+    }
+    #hero .container .left-text span {
+        font-size: 1.3rem;
+        line-height: 1rem;
+        text-align: center;
+        color: #FFFFFF;
+        writing-mode: vertical-rl;
+    }
+    #hero .container .right-icons a {
+        width: 6rem;
+        height: 6rem;
+        color: #FFFFFF;
+        font-size: 2rem;
+        line-height: 2rem;
+        margin-bottom: 2rem;
+    }
+    #book .container .row .col-6 .row .col-6 {
+        width: 100%;
+
+    }
+    #book .container .row .box p {
+        font-size: 1rem;
+    }
+    #about .container .row .col-5 {
+        text-align: center;
+        align-items: center;
+        width: 100%;
+        position: relative;
+    }
+    #special .container .row .col-7 {
+        width: 100%;
+        text-align: center;
+        align-items: center;
+    }
+    #special .container .row .col-5 .img-box {
+        width: 100%;
+        height: 600px;
+        margin: 0 2.5rem;
+    }
+    #special .container .row .col-7 .title {
+        font-size: 2.6rem;
+        line-height: 2.8rem;
+    }
+    #special .container .row .col-7 p {
+        font-size: 1.4rem;
+        line-height: 1.2rem;
+    }
+    #about .container .row .col-5 .img-box:before {
+        display: none;
+    }
+    #team .container .row .col-5 .img-box:before {
+        display: none;
+    }
+    #book .container .row .col-6 .img-box:before {
+        display: none;
+    }
+    #private .container .row .col-6 .img-box-1:before {
+        display: none;
+    }
+    #private .container .row .col-6 .img-box-2:before {
+        display: none;
+    }
+    #about .container .row .col-7 .title {
+        font-size: 2.6rem;
+        line-height: 2.8rem;
+        margin-bottom: 5rem;
+    }
+    #hero .container .hero-content .title {
+        font-size: 4.6rem;
+    }
+    #hero {
+        position: relative;
+        overflow: hidden;
+        background: url(../images/header-bg.png) fixed no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 100vh;
+    }
+    #photo .row .col-3 .box {
+        width: 100%;
+    }
+    #hero .container .hero-content .row .col-6 .book-btn {
+        background: #E8C300;
+        padding: 1.6rem 4.8rem;
+        border-radius: 0.5rem;
+        font-family: Open Sans, sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 1.2rem;
+        line-height: 2rem;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        transition: 0.4s;
+    }
+    #hero {
+        width: 100%;
+        height: 700px;
+    }
+    #book {
+        padding: 5rem 0;
+    }
+    #about {
+        padding: 5rem 0;
+    }
+    #about .container .row .col-5 .img-box {
+        width: 100%;
+        margin: 0 auto;
+    }
+    #book .container .row .col-6 .img-box {
+        margin: 0 auto;
+    }
+    #book .container .row .col-6 {
+        width: 100%;
+    }
+    #team .container .row .col-7 p {
+        font-family: Open Sans, sans-serif;
+        font-size: 1.4rem;
+        font-weight: 300;
+        text-align: center;
+        line-height: 1.8rem;
+        color: #FFFFFF;
+    }
+    #team .container .row .col-5 .img-box {
+        width: 100%;
+        margin: 0 auto;
+    }
+    #team .container .row .col-7 {
+        width: 100%;
+        margin: 0 auto;
+    }
+    #hero .container .hero-content .row .col-6 .explore-btn {
+        background: transparent;
+        padding: 1.6rem 4.8rem;
+        border: 0.1rem solid rgba(255, 255, 255, 0.5);
+        border-radius: 0.5rem;
+        font-family: Open Sans, sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 1.2rem;
+        line-height: 2rem;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        transition: 0.4s;
+    }
+    #contact .container .row .col-6 ul li {
+        padding: 0;
+        margin-right: 0.5rem;
+        font-size: 0.8rem;
+    }
+    #contact .container .row .col-4 label input {
+        width: 100%;
+    }
+    #map {
+        overflow: hidden;
+    }
+    #private {
+        padding: 5rem 0;
+    }
+    .owl-carousel .owl-item img {
+        width: 100%;
+    }
+    #private .container .row .col-6 {
+        width: 100%;
+    }
+    #team .container .row .col-5 {
+        width: 100%;
+    }
+    header .container nav .mobile-btn {
+        display: block;
+        cursor: pointer;
+    }
+     .menu-right, .menu-left {
+        display: none;
+    }
+    .container nav .menu .menu-list-item {
+        margin-top: 2rem;
+    }
+}
+@media screen and (max-width: 767.98px) {
+    #hero {
+        margin: -5rem 0;
+    }
+    #hero .container .hero-content .row .col-6 {
+        display: none;
+    }
+    #hero .container .right-icons a {
+        display: none;
+    }
+    #hero .container .left-text span {
+        display: none;
+    }
+    #hero .container .hero-content .title {
+        margin-top: 10rem;
+        font-size: 8rem;
+    }
+    .title:before {
+        width: 20rem;
+    }
+    .container nav .logo {
+        width: 20rem;
+        height: 20rem;
+        font-size: 4rem;
+        padding-top: 10rem;
+    }
+    #book .container .row .box p {
+        font-size: 2rem;
+        line-height: 3rem;
+        margin: 0 0 5rem 0;
+    }
+    #book .container .row .col-6 .img-box {
+        margin-bottom: -15rem;
+    }
+    #special .container .row .col-5 .img-box {
+        margin: 0 0 -30rem 0;
+    }
+    #menu .container .book-menu li {
+        display: none;
+    }
+    #menu .container p {
+        margin-bottom: 5rem;
+    }
+    #menu .container .row ul li {
+        font-family: BannyRound, sans-serif;
+        font-size: 1.5rem;
+        line-height: 2rem;
+        color: #333333;
+        text-decoration: none;
+        margin: 1rem 0.5rem;
+        list-style: none;
+    }
+    #contact .container .title {
+        padding-top: -5rem;
+    }
+    #contact .container .row .col-6 ul li {
+        display: none;
+    }
+    #contact .container .col-6 {
+        width: 100%;
+    } #contact .container .title {
+          padding-top: 1rem;
+      }
+    #contact .container .row .col-12 label input {
+        margin: 0.5rem auto;
+    }
+    header .container nav .show-menu {
+        top: 0;
+        display: flex;
+        padding-top: 10rem;
+        flex-direction: column;
+        align-items: center;
+        position: fixed;
+        width: 50%;
+        height: 100vh;
+    }
+}
